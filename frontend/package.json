@@ -1,16 +1,16 @@
 {
   "name": "f",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^18.6.1",
     "@vaadin/router": "^1.7.4",
-    "firebase": "^8.7.1",
+    "firebase": "^8.10.1",
     "parcel": "^2.0.0-rc.0"
   },
   "scripts": {
-    "dev": "parcel serve ./src/index.html"
+    "dev": "parcel serve ./src/index.html",
+    "sos": "parcel serve ./src/api.ts"
   },
   "devDependencies": {
     "@types/firebase": "^3.2.1"
